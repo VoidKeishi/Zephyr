@@ -14,11 +14,15 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Quick LinguistTools)
 
 set(TS_FILES Zephyr_en_001.ts)
 
-set(PROJECT_SOURCES
-        main.cpp
-        qml.qrc
-        ${TS_FILES}
+file(GLOB_RECURSE PROJECT_SOURCES 
+     "src/*.cpp"
+     "include/*.h"
+     "qml/*.qml"
 )
+
+list(APPEND PROJECT_SOURCES ${TS_FILES})
+
+qt5_add_resources(PROJECT_SOURCES qml/qml.qrc)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Zephyr
@@ -41,6 +45,8 @@ else()
     else()
         add_executable(Zephyr
           ${PROJECT_SOURCES}
+          src/commandhandler.h src/commandhandler.cpp
+
         )
     endif()
 

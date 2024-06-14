@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/home/void-keishi/Code/Zephyr/build/Zephyr_autogen",
+	"CMAKE_BINARY_DIR" : "/home/void-keishi/Code/Zephyr/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/void-keishi/Code/Zephyr/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/void-keishi/Code/Zephyr",
+	"CMAKE_SOURCE_DIR" : "/home/void-keishi/Code/Zephyr",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/include",
+	"INPUTS" : [ "/home/void-keishi/Code/Zephyr/main.qml" ],
+	"LOCK_FILE" : "/home/void-keishi/Code/Zephyr/build/CMakeFiles/Zephyr_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/home/void-keishi/Qt/5.15.17/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/void-keishi/Code/Zephyr/build/CMakeFiles/Zephyr_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/void-keishi/Code/Zephyr/qml.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,9 @@
+/home/void-keishi/Code/Zephyr/build/CMakeFiles/Zephyr.dir
+/home/void-keishi/Code/Zephyr/build/CMakeFiles/edit_cache.dir
+/home/void-keishi/Code/Zephyr/build/CMakeFiles/rebuild_cache.dir
+/home/void-keishi/Code/Zephyr/build/CMakeFiles/list_install_components.dir
+/home/void-keishi/Code/Zephyr/build/CMakeFiles/install.dir
+/home/void-keishi/Code/Zephyr/build/CMakeFiles/install/local.dir
+/home/void-keishi/Code/Zephyr/build/CMakeFiles/install/strip.dir
+/home/void-keishi/Code/Zephyr/build/CMakeFiles/Zephyr_autogen_timestamp_deps.dir
+/home/void-keishi/Code/Zephyr/build/CMakeFiles/Zephyr_autogen.dir
