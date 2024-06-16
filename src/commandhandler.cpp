@@ -1,4 +1,3 @@
-// CommandHandler.cpp
 #include "commandhandler.h"
 #include "command.h"
 #include <pty.h>
@@ -6,6 +5,7 @@
 #include <QDebug>
 #include <QProcess>
 #include <QDir>
+#include <QVector>
 
 
 CommandHandler::CommandHandler(QObject *parent) : QObject(parent), currentDir(QDir::currentPath())
@@ -26,7 +26,30 @@ CommandHandler::CommandHandler(QObject *parent) : QObject(parent), currentDir(QD
 void CommandHandler::receiveCommand(Command* command)
 {
     qDebug() << "Command received:" << command->getCommandContent();
+    addCommandToHistory(command->getCommandContent());
     execCommand(command->getCommandContent());
+}
+
+void CommandHandler::addCommandToHistory(const QString &command)
+{
+    commandHistory.append(command);
+    commandIndex = commandHistory.size() - 1;
+}
+
+QString CommandHandler::getPreviousCommand()
+{
+    if (commandIndex >= 0) {
+        return commandHistory[commandIndex--];
+    }
+    return QString();
+}
+
+Q_INVOKABLE QString CommandHandler::getNextCommand() {
+    if (commandIndex < commandHistory.size() - 1) {
+        commandIndex++;
+        return commandHistory[commandIndex];  // Get the next command and update the command index
+    }
+    return QString();
 }
 
 void CommandHandler::execCommand(const QString &command)
@@ -46,5 +69,4 @@ void CommandHandler::execCommand(const QString &command)
 
     // Emit the command with the current directory prefix
     emit handleCommand(currentDir + "$ " + command);
-
 }

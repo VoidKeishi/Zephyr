@@ -5,6 +5,7 @@
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/QObject \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/QProcess \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/QString \
+  /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/QVector \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qalgorithms.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qarraydata.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qatomic.h \

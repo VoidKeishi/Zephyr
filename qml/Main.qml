@@ -65,6 +65,12 @@ ApplicationWindow {
                 commandHandler.receiveCommand(command)  // Pass the Command object to the CommandHandler
                 text = ""
             }
+            Keys.onUpPressed: {
+                text = commandHandler.getPreviousCommand()  // Get the previous command from the command history
+            }
+            Keys.onDownPressed: {
+                text = commandHandler.getNextCommand()  // Get the next command from the command history
+            }
         }
     }
 }
