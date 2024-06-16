@@ -14,12 +14,10 @@ ApplicationWindow {
 
         onHandleCommand: {
             commandOutput.appendText(command + "\n")
-            scrollToBottom()
         }
 
         onCommandOutput: {
-            commandOutput.appendText(output + "\n")
-            scrollToBottom()
+            commandOutput.appendText(output)
         }
     }
 
@@ -42,10 +40,8 @@ ApplicationWindow {
                 width: scrollArea.width
                 wrapMode: TextEdit.Wrap
                 background: null
-
                 function appendText(newText) {
                     text += newText;
-                    // Move the cursor to the end of the text
                     cursorPosition = text.length;
                 }
             }
@@ -66,9 +62,5 @@ ApplicationWindow {
                 text = ""
             }
         }
-    }
-
-    function scrollToBottom() {
-        scrollArea.contentY = commandOutput.height - scrollArea.height
     }
 }
