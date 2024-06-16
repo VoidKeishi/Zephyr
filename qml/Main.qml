@@ -69,6 +69,6 @@ ApplicationWindow {
     }
 
     function scrollToBottom() {
-        scrollArea.contentY = scrollArea.contentItem.children[0].height - scrollArea.height
+        scrollArea.contentY = commandOutput.height - scrollArea.height
     }
 }
