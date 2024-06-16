@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-35de0ab828186170488e.json",
+					"jsonFile" : "directory-.-498842e9c23c94b472d9.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.14"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Zephyr::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Zephyr-3a0e1c9ed5c4b460cd88.json",
+					"jsonFile" : "target-Zephyr-728782c8d85806ad614d.json",
 					"name" : "Zephyr",
 					"projectIndex" : 0
 				},

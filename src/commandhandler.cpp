@@ -1,5 +1,6 @@
 // CommandHandler.cpp
 #include "commandhandler.h"
+#include "command.h"
 #include <pty.h>
 #include <QtDebug>
 #include <QDebug>
@@ -22,10 +23,10 @@ CommandHandler::CommandHandler(QObject *parent) : QObject(parent), currentDir(QD
     });
 }
 
-void CommandHandler::receiveCommand(const QString &command)
+void CommandHandler::receiveCommand(Command* command)
 {
-    qDebug() << "Command received:" << command;
-    execCommand(command);
+    qDebug() << "Command received:" << command->getCommandContent();
+    execCommand(command->getCommandContent());
 }
 
 void CommandHandler::execCommand(const QString &command)

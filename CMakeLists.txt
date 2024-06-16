@@ -46,7 +46,7 @@ else()
         add_executable(Zephyr
           ${PROJECT_SOURCES}
           src/commandhandler.h src/commandhandler.cpp
-
+          src/command.h src/command.cpp
         )
     endif()
 

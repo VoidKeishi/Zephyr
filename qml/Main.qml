@@ -20,6 +20,9 @@ ApplicationWindow {
             commandOutput.appendText(output)
         }
     }
+    Command {  // Create a Command object
+        id: command
+    }
 
     Rectangle {
         color: "#333333"
@@ -58,7 +61,8 @@ ApplicationWindow {
             font.pointSize: 14
             background: null
             onAccepted: {
-                commandHandler.receiveCommand(text)
+                command.commandContent = text  // Set the command content
+                commandHandler.receiveCommand(command)  // Pass the Command object to the CommandHandler
                 text = ""
             }
         }

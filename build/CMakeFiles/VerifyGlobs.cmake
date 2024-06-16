@@ -43,10 +43,11 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/void-keishi/Code/Zephyr
 set(OLD_GLOB
   "/home/void-keishi/Code/Zephyr/build/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/home/void-keishi/Code/Zephyr/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/EWIEGA46WW/qrc_qml.cpp"
+  "/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/UVLADIE3JM/moc_command.cpp"
   "/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/UVLADIE3JM/moc_commandhandler.cpp"
   "/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/mocs_compilation.cpp"
   "/home/void-keishi/Code/Zephyr/build/qrc_qml.cpp"
+  "/home/void-keishi/Code/Zephyr/src/command.cpp"
   "/home/void-keishi/Code/Zephyr/src/commandhandler.cpp"
   "/home/void-keishi/Code/Zephyr/src/main.cpp"
   )
@@ -68,6 +69,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/void-keishi/Code/Zephyr/*.h")
 set(OLD_GLOB
   "/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/moc_predefs.h"
+  "/home/void-keishi/Code/Zephyr/src/command.h"
   "/home/void-keishi/Code/Zephyr/src/commandhandler.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

@@ -115,6 +115,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/void-keishi/Code/Zephyr/src/command.h",
+			"MU",
+			"UVLADIE3JM/moc_command.cpp",
+			null
+		],
+		[
 			"/home/void-keishi/Code/Zephyr/src/commandhandler.h",
 			"MU",
 			"UVLADIE3JM/moc_commandhandler.cpp",
@@ -184,6 +190,7 @@
 	"SETTINGS_FILE" : "/home/void-keishi/Code/Zephyr/build/CMakeFiles/Zephyr_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/void-keishi/Code/Zephyr/src/command.cpp", "MU", null ],
 		[ "/home/void-keishi/Code/Zephyr/src/commandhandler.cpp", "MU", null ],
 		[ "/home/void-keishi/Code/Zephyr/src/main.cpp", "MU", null ]
 	],

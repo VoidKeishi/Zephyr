@@ -52,6 +52,14 @@ build CMakeFiles/Zephyr.dir/Zephyr_autogen/mocs_compilation.cpp.o: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles/Zephyr.dir
   OBJECT_FILE_DIR = CMakeFiles/Zephyr.dir/Zephyr_autogen
 
+build CMakeFiles/Zephyr.dir/src/command.cpp.o: CXX_COMPILER__Zephyr_unscanned_ /home/void-keishi/Code/Zephyr/src/command.cpp || cmake_object_order_depends_target_Zephyr
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/Zephyr.dir/src/command.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/include -isystem /home/void-keishi/Qt/5.15.17/gcc_64/include -isystem /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore -isystem /home/void-keishi/Qt/5.15.17/gcc_64/./mkspecs/linux-g++ -isystem /home/void-keishi/Qt/5.15.17/gcc_64/include/QtQuick -isystem /home/void-keishi/Qt/5.15.17/gcc_64/include/QtQmlModels -isystem /home/void-keishi/Qt/5.15.17/gcc_64/include/QtQml -isystem /home/void-keishi/Qt/5.15.17/gcc_64/include/QtNetwork -isystem /home/void-keishi/Qt/5.15.17/gcc_64/include/QtGui
+  OBJECT_DIR = CMakeFiles/Zephyr.dir
+  OBJECT_FILE_DIR = CMakeFiles/Zephyr.dir/src
+
 build CMakeFiles/Zephyr.dir/src/commandhandler.cpp.o: CXX_COMPILER__Zephyr_unscanned_ /home/void-keishi/Code/Zephyr/src/commandhandler.cpp || cmake_object_order_depends_target_Zephyr
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/Zephyr.dir/src/commandhandler.cpp.o.d
@@ -84,7 +92,7 @@ build CMakeFiles/Zephyr.dir/qrc_qml.cpp.o: CXX_COMPILER__Zephyr_unscanned_ /home
 #############################################
 # Link the executable Zephyr
 
-build Zephyr: CXX_EXECUTABLE_LINKER__Zephyr_ CMakeFiles/Zephyr.dir/Zephyr_autogen/mocs_compilation.cpp.o CMakeFiles/Zephyr.dir/src/commandhandler.cpp.o CMakeFiles/Zephyr.dir/src/main.cpp.o CMakeFiles/Zephyr.dir/qrc_qml.cpp.o | /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Quick.so.5.15.17 /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5QmlModels.so.5.15.17 /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Qml.so.5.15.17 /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Network.so.5.15.17 /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Gui.so.5.15.17 /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Core.so.5.15.17 || Zephyr_autogen Zephyr_autogen_timestamp_deps
+build Zephyr: CXX_EXECUTABLE_LINKER__Zephyr_ CMakeFiles/Zephyr.dir/Zephyr_autogen/mocs_compilation.cpp.o CMakeFiles/Zephyr.dir/src/command.cpp.o CMakeFiles/Zephyr.dir/src/commandhandler.cpp.o CMakeFiles/Zephyr.dir/src/main.cpp.o CMakeFiles/Zephyr.dir/qrc_qml.cpp.o | /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Quick.so.5.15.17 /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5QmlModels.so.5.15.17 /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Qml.so.5.15.17 /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Network.so.5.15.17 /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Gui.so.5.15.17 /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Core.so.5.15.17 || Zephyr_autogen Zephyr_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG
   LINK_LIBRARIES = -Wl,-rpath,/home/void-keishi/Qt/5.15.17/gcc_64/lib:  /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Quick.so.5.15.17  /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5QmlModels.so.5.15.17  /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Qml.so.5.15.17  /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Network.so.5.15.17  /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Gui.so.5.15.17  /home/void-keishi/Qt/5.15.17/gcc_64/lib/libQt5Core.so.5.15.17
   OBJECT_DIR = CMakeFiles/Zephyr.dir

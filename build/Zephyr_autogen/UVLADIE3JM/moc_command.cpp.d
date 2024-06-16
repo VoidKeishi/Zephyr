@@ -1,9 +1,7 @@
-/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/UVLADIE3JM/moc_commandhandler.cpp: /home/void-keishi/Code/Zephyr/src/commandhandler.h \
+/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/UVLADIE3JM/moc_command.cpp: /home/void-keishi/Code/Zephyr/src/command.h \
   /home/void-keishi/Code/Zephyr/build/Zephyr_autogen/moc_predefs.h \
-  /home/void-keishi/Code/Zephyr/src/command.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/QDateTime \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/QObject \
-  /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/QProcess \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/QString \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qalgorithms.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qarraydata.h \
@@ -24,7 +22,6 @@
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qglobalstatic.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qhash.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qiodevice.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qiterator.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qlist.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qlogging.h \
@@ -36,7 +33,6 @@
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qobjectdefs.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qobjectdefs_impl.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qpair.h \
-  /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qprocess.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qprocessordetection.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qrefcount.h \
   /home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qregexp.h \

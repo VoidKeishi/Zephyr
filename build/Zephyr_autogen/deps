@@ -5,9 +5,12 @@ Zephyr_autogen/timestamp: \
 	/home/void-keishi/Code/Zephyr/build/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/moc_predefs.h \
 	/home/void-keishi/Code/Zephyr/qml/qml.qrc \
+	/home/void-keishi/Code/Zephyr/src/command.cpp \
+	/home/void-keishi/Code/Zephyr/src/command.h \
 	/home/void-keishi/Code/Zephyr/src/commandhandler.cpp \
 	/home/void-keishi/Code/Zephyr/src/commandhandler.h \
 	/home/void-keishi/Code/Zephyr/src/main.cpp \
+	/home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/QDateTime \
 	/home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/QObject \
 	/home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/QProcess \
 	/home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/QString \
@@ -23,6 +26,7 @@ Zephyr_autogen/timestamp: \
 	/home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qconfig.h \
 	/home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qcontainerfwd.h \
 	/home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qcontainertools_impl.h \
+	/home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qdatetime.h \
 	/home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qflags.h \
 	/home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qgenericatomic.h \
 	/home/void-keishi/Qt/5.15.17/gcc_64/include/QtCore/qglobal.h \

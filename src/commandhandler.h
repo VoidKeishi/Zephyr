@@ -5,6 +5,7 @@
 #include <QObject>
 #include <QString>
 #include <QProcess>
+#include "command.h"
 
 class CommandHandler : public QObject
 {
@@ -12,7 +13,7 @@ class CommandHandler : public QObject
 
 public:
     explicit CommandHandler(QObject *parent = nullptr);
-    Q_INVOKABLE void receiveCommand(const QString &command);
+    Q_INVOKABLE void receiveCommand(Command* command);
 signals:
     void handleCommand(const QString &command);
     void commandOutput(const QString &output);
