@@ -183,7 +183,7 @@ build Zephyr_autogen: phony CMakeFiles/Zephyr_autogen Zephyr_autogen/timestamp Z
 #############################################
 # Custom command for qrc_qml.cpp
 
-build qrc_qml.cpp | ${cmake_ninja_workdir}qrc_qml.cpp: CUSTOM_COMMAND /home/void-keishi/Code/Zephyr/qml/qml.qrc /home/void-keishi/Code/Zephyr/qml/Main.qml /home/void-keishi/Code/Zephyr/qml/Tab.qml qml/qml.qrc.depends || Zephyr_autogen Zephyr_autogen_timestamp_deps
+build qrc_qml.cpp | ${cmake_ninja_workdir}qrc_qml.cpp: CUSTOM_COMMAND /home/void-keishi/Code/Zephyr/qml/qml.qrc /home/void-keishi/Code/Zephyr/qml/Main.qml /home/void-keishi/Code/Zephyr/qml/Terminal.qml qml/qml.qrc.depends || Zephyr_autogen Zephyr_autogen_timestamp_deps
   COMMAND = cd /home/void-keishi/Code/Zephyr/build && /home/void-keishi/Qt/5.15.17/gcc_64/bin/rcc --name qml --output /home/void-keishi/Code/Zephyr/build/qrc_qml.cpp /home/void-keishi/Code/Zephyr/qml/qml.qrc
   DESC = Generating qrc_qml.cpp
   restat = 1

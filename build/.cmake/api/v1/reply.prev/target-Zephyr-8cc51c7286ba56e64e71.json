@@ -40,13 +40,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 75,
+				"line" : 74,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 57,
+				"line" : 56,
 				"parent" : 0
 			},
 			{
@@ -362,7 +362,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "qml/Tab.qml",
+			"path" : "qml/Terminal.qml",
 			"sourceGroupIndex" : 1
 		},
 		{

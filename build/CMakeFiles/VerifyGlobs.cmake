@@ -144,7 +144,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/void-keishi/Code/Zephyr/*.qml")
 set(OLD_GLOB
   "/home/void-keishi/Code/Zephyr/qml/Main.qml"
-  "/home/void-keishi/Code/Zephyr/qml/Tab.qml"
+  "/home/void-keishi/Code/Zephyr/qml/Terminal.qml"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

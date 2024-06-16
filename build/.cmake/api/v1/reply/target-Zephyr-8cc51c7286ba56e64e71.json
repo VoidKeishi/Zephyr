@@ -362,7 +362,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "qml/Tab.qml",
+			"path" : "qml/Terminal.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
