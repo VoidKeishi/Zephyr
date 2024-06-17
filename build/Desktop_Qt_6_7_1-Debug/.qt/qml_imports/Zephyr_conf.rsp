@@ -1,0 +1,9 @@
+-rootPath
+/home/void-keishi/Code/Zephyr
+-cmake-output
+-output-file
+/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/Zephyr_conf.cmake
+-importPath
+/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug
+-importPath
+/home/void-keishi/Qt/6.7.1/gcc_64/./qml
