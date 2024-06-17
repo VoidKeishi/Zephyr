@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1.0
+Type=Application
+Name=Zephyr
+Exec=/usr/bin/Zephyr
+Icon=/usr/share/icons/zephyr.png
+Terminal=false
+Categories=Utility;TerminalEmulator;
+Comment=Sleek and efficient terminal application built with QML and the Qt Framework
