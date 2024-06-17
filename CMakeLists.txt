@@ -22,7 +22,7 @@ file(GLOB_RECURSE PROJECT_SOURCES
 
 list(APPEND PROJECT_SOURCES ${TS_FILES})
 
-qt5_add_resources(PROJECT_SOURCES qml/qml.qrc)
+qt_add_resources(PROJECT_SOURCES qml/qml.qrc)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Zephyr

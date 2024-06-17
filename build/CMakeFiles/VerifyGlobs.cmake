@@ -41,8 +41,14 @@ endif()
 # _directory_contents at /home/void-keishi/Qt/5.15.17/gcc_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake:84 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/void-keishi/Code/Zephyr/*.cpp")
 set(OLD_GLOB
+  "/home/void-keishi/Code/Zephyr/Zephyr/src/main.cpp"
   "/home/void-keishi/Code/Zephyr/build/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/home/void-keishi/Code/Zephyr/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/Zephyr_autogen/UVLADIE3JM/moc_command.cpp"
+  "/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/Zephyr_autogen/UVLADIE3JM/moc_commandhandler.cpp"
+  "/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/Zephyr_autogen/mocs_compilation.cpp"
+  "/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/qrc_qml.cpp"
   "/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/UVLADIE3JM/moc_command.cpp"
   "/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/UVLADIE3JM/moc_commandhandler.cpp"
   "/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/mocs_compilation.cpp"
@@ -68,6 +74,10 @@ endif()
 # _directory_contents at /home/void-keishi/Qt/5.15.17/gcc_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake:84 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/void-keishi/Code/Zephyr/*.h")
 set(OLD_GLOB
+  "/home/void-keishi/Code/Zephyr/Zephyr/src/app_environment.h"
+  "/home/void-keishi/Code/Zephyr/Zephyr/src/import_qml_components_plugins.h"
+  "/home/void-keishi/Code/Zephyr/Zephyr/src/import_qml_plugins.h"
+  "/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/Zephyr_autogen/moc_predefs.h"
   "/home/void-keishi/Code/Zephyr/build/Zephyr_autogen/moc_predefs.h"
   "/home/void-keishi/Code/Zephyr/src/command.h"
   "/home/void-keishi/Code/Zephyr/src/commandhandler.h"
@@ -143,6 +153,13 @@ endif()
 # _directory_contents at /home/void-keishi/Qt/5.15.17/gcc_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake:84 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/void-keishi/Code/Zephyr/*.qml")
 set(OLD_GLOB
+  "/home/void-keishi/Code/Zephyr/Zephyr/Main.qml"
+  "/home/void-keishi/Code/Zephyr/Zephyr/content/App.qml"
+  "/home/void-keishi/Code/Zephyr/Zephyr/content/Screen01.ui.qml"
+  "/home/void-keishi/Code/Zephyr/Zephyr/imports/Zephyr/Constants.qml"
+  "/home/void-keishi/Code/Zephyr/Zephyr/imports/Zephyr/DirectoryFontLoader.qml"
+  "/home/void-keishi/Code/Zephyr/Zephyr/imports/Zephyr/EventListModel.qml"
+  "/home/void-keishi/Code/Zephyr/Zephyr/imports/Zephyr/EventListSimulator.qml"
   "/home/void-keishi/Code/Zephyr/qml/Main.qml"
   "/home/void-keishi/Code/Zephyr/qml/Terminal.qml"
   )
@@ -154,6 +171,8 @@ endif()
 # _directory_contents at /home/void-keishi/Qt/5.15.17/gcc_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake:84 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/void-keishi/Code/Zephyr/*.qrc")
 set(OLD_GLOB
+  "/home/void-keishi/Code/Zephyr/Zephyr/qml.qrc"
+  "/home/void-keishi/Code/Zephyr/Zephyr/view/qml.qrc"
   "/home/void-keishi/Code/Zephyr/qml/qml.qrc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

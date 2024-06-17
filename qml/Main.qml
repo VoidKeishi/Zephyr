@@ -9,59 +9,71 @@ ApplicationWindow {
     width: 800
     height: 600
     title: "Zephyr Terminal"
-    Rectangle {
-        color: "#333333"
+
+    ColumnLayout {
         anchors.fill: parent
-        ColumnLayout {
-            anchors.fill: parent
-
-            RowLayout {
-                width: parent.width
-                height: 50
+        RowLayout {
+            Layout.fillWidth: true
+            height: 30
+            ListView {
+                id: listView
                 Layout.fillWidth: true
-
-                Repeater {
-                    id: tabBar
-                    model: tabModel
-                    delegate: RowLayout {
-                        Button {
-                            text: model.title
-                            onClicked: {
-                                if (index < stackView.depth) {
-                                    stackView.pop(stackView.depth - index);
-                                } else {
-                                    stackView.push("qrc:/Terminal.qml");
-                                }
-                            }
-                        }
-                        Button {
-                            text: "X"
-                            width: 10
-                            onClicked: {
-                                tabModel.remove(index);
-                                if (index < stackView.depth) {
-                                    stackView.pop();
-                                }
-                            }
+                height: parent.height
+                orientation: ListView.Horizontal
+                model: tabModel
+                delegate: Item {
+                    width: listView.width / tabModel.count
+                    height: parent.height
+                    TabButton {
+                        text: model.title
+                        onClicked: listView.currentIndex = index
+                        width: parent.width - closeBtn.width
+                        height: parent.height
+                        background: Rectangle {
+                            color: listView.currentIndex === index ? "#333333" : "#2F2F2F"
                         }
                     }
-                }
 
-                Button {
-                    text: "+"
-                    onClicked: {
-                        var newIndex = tabModel.count + 1;
-                        tabModel.append({"title": "Terminal " + newIndex});
-                        stackView.push("qrc:/Terminal.qml");
+                    Button {
+                        id: closeBtn
+                        text: "x"
+                        anchors.right: parent.right
+                        width: 20
+                        height: parent.height
+                        onClicked: {
+                            tabModel.remove(index);
+                            if (listView.currentIndex >= index) {
+                                listView.currentIndex -= 1;
+                            }
+                        }
+                        background: Rectangle {
+                            color: listView.currentIndex === index ? "#333333" : "#2F2F2F"
+                        }
                     }
                 }
             }
 
-            StackView {
-                id: stackView
-                Layout.fillWidth: true
-                Layout.fillHeight: true
-                initialItem: "qrc:/Terminal.qml"
+            Button {
+                text: "+"
+                width: 50
+                height: parent.height
+                onClicked: {
+                    var newIndex = tabModel.count + 1;
+                    tabModel.append({"title": "Terminal " + newIndex});
+                    listView.currentIndex = tabModel.count - 1;
+                }
+            }
+        }
+        StackLayout {
+            id: stackLayout
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+
+            Repeater {
+                model: tabModel
+                delegate: Loader {
+                    source: "qrc:/Terminal.qml"
+                }
             }
         }
     }
@@ -69,5 +81,12 @@ ApplicationWindow {
     ListModel {
         id: tabModel
         ListElement { title: "Terminal 1" }
+    }
+
+    Connections {
+        target: listView
+        onCurrentIndexChanged: {
+            stackLayout.currentIndex = listView.currentIndex;
+        }
     }
 }

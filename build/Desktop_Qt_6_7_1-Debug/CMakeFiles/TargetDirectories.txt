@@ -1,0 +1,10 @@
+/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/Zephyr.dir
+/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/Zephyr_qmlimportscan.dir
+/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/edit_cache.dir
+/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/rebuild_cache.dir
+/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/list_install_components.dir
+/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/install.dir
+/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/install/local.dir
+/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/install/strip.dir
+/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/Zephyr_autogen_timestamp_deps.dir
+/home/void-keishi/Code/Zephyr/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/Zephyr_autogen.dir
